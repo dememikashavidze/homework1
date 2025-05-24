@@ -1,3 +1,90 @@
- p{
-    color: red;
- }
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: url(starter-code/assets/home/background-home-desktop.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  padding: 20px;
+  overflow: hidden;
+}
+
+.d-1 {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-top: 50px;
+  margin-left: 20px;
+}
+
+.sparkle {
+  width: 55px;
+  height: 55px;
+  background-color: white;
+  border-radius: 40px;
+}
+
+.d-5 {
+  background-color: rgba(128, 128, 128, 0.295);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  font-size: 22px;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 75%;
+  padding: 40px;
+  padding-right: 100px;
+  margin-right: -100px;
+  color: white;
+  position: relative;
+  z-index: 0;
+}
+
+.d-3 {
+  width: 890px;
+  height: 2px;
+  background-color: rgba(107, 100, 100, 0.438);
+  z-index: 10;
+  margin-right: -100px;
+}
+
+.d-6 {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  gap: 500px;
+  align-items: center;
+  height: 80%;
+}
+
+h1 {
+  font-size: 200px;
+  color: white;
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 90px 50px;
+  background-color: white;
+  border: 0px;
+  border-radius: 100%;
+  align-items: center;
+  display: flex;
+  font-size: 27px;
+  font-weight: 600;
+  font-family: "Courier New", Courier, monospace;
+}
+
+p {
+  color: silver;
+  margin-bottom: 5px;
+}
+
+h2 {
+  color: silver;
+}
